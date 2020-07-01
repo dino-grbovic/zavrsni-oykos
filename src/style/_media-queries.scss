@@ -1,0 +1,142 @@
+@media screen and (max-width: 850px) {
+	#MainPage {
+        .renderShoes {
+            width: 70%;
+            min-width: 150px;
+            display: flex;
+            justify-content: flex-start;
+            overflow-x: auto;
+            overflow-y: hidden;        
+        }
+
+        .court {
+            display: flex;
+            flex-direction: column;
+        }
+        .court-image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .gallery {
+            width: 70%;
+            .renderGallery {
+                width: 70%;
+                display: flex;
+                justify-content: flex-start;
+                overflow-x: auto;
+                overflow-y: hidden; 
+            }
+        }
+
+    } 
+     
+}
+
+@media screen and (max-width: 665px) {
+    #Header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #MainPage {
+        .court {
+            align-items: center;
+
+            img{
+                height: 400px;
+                width: auto;
+            }
+        }
+        .gallery {
+            .bottom-content {
+                justify-content: space-around;
+                width: 70%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #Shoe {
+        max-width: 150px;
+        .shoe-image img {
+            max-width: 150px;
+            height: auto;
+        }
+    }
+    #MainPage {
+        .court img {
+            max-width: 220px;
+            height: auto;
+            margin-left: 0;
+        }
+        .court-content, .court-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+            p {
+                max-width: 220px;
+            }
+            .renderCourt {
+                max-width: 150px;
+                img {
+                    max-width: 150px;
+                    height: auto;
+                }
+                #Shoe{
+                    padding: 0;
+                }
+            }
+            
+        }
+        .gallery {
+            .top-content {
+                flex-direction: column;
+            }
+            .renderGallery {
+                max-width: 220px;
+                min-width: 150px;
+                .gallery-img img {
+                    width: 150px;
+                    min-width: 150px;
+                    height: auto;
+                }
+            }
+            .bottom-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .article {
+            max-width: 220px;
+            min-width: 150px;
+            .article-image img {
+                width: 150px;
+                min-width: 150px;
+                height: 150px;
+            }
+        }
+    }
+    #Footer {
+        flex-direction: column;
+        align-items: center;
+        .right-column {
+            flex-direction: column;
+            .customer-service {
+                margin-left: 0;
+            }
+        }
+    }
+}

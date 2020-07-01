@@ -1,0 +1,20 @@
+#Hero {
+  height: 400px;  
+  background-image: url("../img/hero-image.jpg"); 
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.hero-content {
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.additional-text {
+    margin-bottom: 30px;
+}

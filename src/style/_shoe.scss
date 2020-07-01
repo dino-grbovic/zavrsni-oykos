@@ -1,0 +1,26 @@
+#Shoe {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px 20px;
+}
+
+.shoe-image img {
+    width: 250px;
+    height: 250px;
+}
+
+.shoe-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.color {
+    font-style: italic;
+}

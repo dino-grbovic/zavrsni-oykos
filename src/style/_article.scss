@@ -1,0 +1,22 @@
+#Article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.article-image img {
+    height: 350px;
+    width: 400px;
+}
+
+.article-details {
+    padding-top: 5px;
+}
+
+.article-title {
+    font-weight: bold;
+}
+
+.article-text {
+    margin-top: 5px;
+}

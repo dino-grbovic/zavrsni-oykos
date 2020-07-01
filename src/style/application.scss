@@ -1,0 +1,29 @@
+@import "article";
+@import "footer";
+@import "gallery-item";
+@import "header";
+@import "hero";
+@import "mainPage";
+@import "media-queries";
+@import "shoe";
+
+
+#App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+
+  ::-webkit-scrollbar {
+    height: 5px;
+    color: black;
+    background-color: #eae9e9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+    width: 50%;
+}
+}
+

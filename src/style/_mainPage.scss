@@ -1,0 +1,125 @@
+#MainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select{
+    margin-top: 50px;
+}
+
+.renderShoes {
+    display: flex;
+    justify-content: center;
+}
+
+.select .tabs {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: darkgray;
+    background-color: white;
+}
+
+.shopButton {
+    padding: 20px;
+    color: white;
+}
+
+.court {
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.court-image {
+    width: 50%;
+}
+
+.court-image img {
+    height: 600px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.court-title {
+    font-weight: bold;
+}
+
+.court-info {
+    margin-left: 20px;
+}
+
+.some-info {
+    padding: 70px 0px;
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.learn-more {
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.article {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.renderGallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.top-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.greats {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.greats span {
+    padding-left: 5px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.bottom-title {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.bottom-item {
+    padding: 0px 35px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}

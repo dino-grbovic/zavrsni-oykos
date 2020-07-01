@@ -1,0 +1,77 @@
+#Footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.left-column {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.footer-email input {
+    height: 50px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.footer-email input::placeholder {
+    color: white;
+}
+
+.footer-email button {
+    height: 54px;
+    background-color: white;
+    border: none;
+}
+
+.footer-icons {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.footer-icons .icon {
+    padding: 5px;
+    color: white;
+    background-color: grey;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+.right-column {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 10%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    color: grey;
+}
+
+.content {
+    display: flex;
+}
+
+.content p {
+    padding-right: 10px;
+}
+
+.customer-service {
+    margin-left: 20px;
+}
+

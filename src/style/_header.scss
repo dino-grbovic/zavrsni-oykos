@@ -1,0 +1,32 @@
+#Header {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs, .links {
+    padding: 10px 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+.tabs img {
+    height: 20px;
+    padding: 1px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}

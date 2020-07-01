@@ -1,0 +1,14 @@
+#GalleryItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-img img {
+    height: 300px;
+    width: 300px;
+}
+
+.gallery-imgzoom img {
+    height: 450px;
+    width: 450px;
+}
